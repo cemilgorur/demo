@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Proje.Views.Dict">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="İşaret dili alfabesi " FontSize="20" VerticalOptions="Center" HorizontalOptions="Center" Margin="20"></Label>
+            <Image Source="alfabe.jpg" HeightRequest="500" WidthRequest="300"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

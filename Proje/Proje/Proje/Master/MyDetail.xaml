@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Proje.Master.MyDetail">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="White">
+            <Entry x:Name="EntryText" Placeholder="Söylemek istediğiniz metni girin"
+                   HeightRequest="200"></Entry>
+            <Button  x:Name="Btn1" HorizontalOptions="Center" BackgroundColor="White"  ImageSource="speak.png" Clicked="Button_Clicked"></Button>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
